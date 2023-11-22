@@ -2,7 +2,10 @@ module github.com/pwhelan/mock-fleet-api
 
 go 1.21.4
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/google/uuid v1.4.0
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
